@@ -34,9 +34,6 @@ rbxlx.parse(fs.readFileSync(path.join(__dirname, "test.rbxlx")))
     console.log(`Could not parse file because: ${err.message}`);
 })
 ```
-It is available on npm as well as on github:
-https://www.npmjs.com/package/rbxlx
-https://github.com/Jolcos/rbxlx
 
 # How do I import those instances?
 You can use [this module](https://www.roblox.com/library/4778223327/rbxlx), if you want a demo on how to use it then check out [this place](https://www.roblox.com/games/4778333674/rbxlx).
